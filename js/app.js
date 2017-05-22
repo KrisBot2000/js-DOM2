@@ -75,7 +75,7 @@ Append this element to the div with the id of
 
 var divHours4 = document.createElement("div");
 divHours4.id = "hours4";
-divHours4.innerHTML = "Hours: 9am - 10pm Sun - Sat";
+divHours4	.innerHTML = "Hours: 9am - 10pm Sun - Sat";
 document.getElementById("text4").appendChild(divHours4);
 
 /*Create a paragraph element with an id of "update4". Inside this paragraph element, give it the following info:
@@ -111,3 +111,31 @@ hours5: Hours: We never close.
 Append the div elements to the div id "text5"
 */
 
+var divName5 = document.createElement("div");
+divName5.id = "name5";
+divName5.innerHTML = "5. The Death Star Cafe";
+document.getElementById("text5").appendChild(divName5);
+
+
+var divRating5 = document.createElement("div");
+divRating5.id = "rating5";
+divRating5.innerHTML = "Rating: 2 Stars";
+document.getElementById("text5").appendChild(divRating5);
+
+
+var divPrice5 = document.createElement("div");
+divPrice5.id = "price5";
+divPrice5.innerHTML = "Price: $$";
+document.getElementById("text5").appendChild(divPrice5);
+
+
+var divAddy5 = document.createElement("div");
+divAddy5.id = "addy5";
+divAddy5.innerHTML = "Address: A galaxy far, far away.";
+document.getElementById("text5").appendChild(divAddy5);
+
+
+var divHours5 = document.createElement("div");
+divHours5.id = "hours5";
+divHours5.innerHTML = "Hours: We never close.";
+document.getElementById("text5").appendChild(divHours5);
