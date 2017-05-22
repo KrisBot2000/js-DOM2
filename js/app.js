@@ -8,16 +8,21 @@ Also don't forget to run your live-server for this assignment.*/
 Rating: 5 Stars*/
 
 var divRating1 = document.getElementById("rating1");
-divRating1.innerHTML = "5 Stars";
+divRating1.innerHTML = "Rating: 5 Stars";
 
 //2. Sunrise Restaurant
 /*No rise and shine for the Sunrise Restaurant, as their price and address needs some serious updating. Bring in some sunshine by changing the price and address to the following:
 
 Price: $$$
-Adress: 525 Kapahulu Ave, Honolulu, HI 96815*/
+Address: 525 Kapahulu Ave, Honolulu, HI 96815*/
 
+var divPrice2 = document.getElementById("price2");
+divPrice2.innerHTML = "Price: $$$";
 
-//3. Ramen Nakamura
+var divAddy2 = document.getElementById("addy2");
+divAddy2.innerHTML = "Address: 525 Kapahulu Ave, Honolulu, HI 96815";
+
+//3. Ramen Nakamura	
 /*Literally, where did the time go? Ramen Nakamura is missing the hours section! This mistake is timeless.
 
 You will need to create a new div element with an id of "hours3". Inside this div element, give it the following info:
